@@ -95,5 +95,6 @@ class Menu:
                 print("Bye!")
                 break
 
-go = Menu()
-go.user_input()
+if __name__ == "__main__":
+    go = Menu()
+    go.user_input()
